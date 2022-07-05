@@ -3,12 +3,17 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .orange {
     color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -17,7 +22,7 @@ section {
 }
 
 .half-width img {
-    width: 80%;
+    width: 60%;
 }
 
 .order-food {
@@ -27,9 +32,19 @@ section {
     border-radius: 50px;
     color: white;
 
+
 }
 
 .top-banner {
     background-image: url(images/shapes/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.about-me {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+#second-img {
+    text-align: justify;
 }
